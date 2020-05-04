@@ -1,37 +1,79 @@
-## Welcome to GitHub Pages
+# React Boilerplate
+<p align="center">
+<img alt="David" src="https://img.shields.io/david/dev/lucasjs/react-boilerplate">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/lucasjs/react-boilerplate">
+<img alt="GitHub" src="https://img.shields.io/github/license/lucasjs/react-boilerplate">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lucasjs/react-boilerplate">
+</p>
 
-You can use the [editor on GitHub](https://github.com/todasasletras/todasasletras/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Stack:
+- [React](https://github.com/facebook/react)
+- [React Hot Loader](https://github.com/gaearon/react-hot-loader)
+- [PropTypes](https://github.com/facebook/prop-types)
+- [Babel](https://github.com/babel/babel)
+- [CSS Modules](https://github.com/css-modules/css-modules)
+- [PostCSS](https://github.com/postcss/postcss)
+- [postcss-preset-env](https://github.com/csstools/postcss-preset-env)
+- [Webpack](https://github.com/webpack/webpack)
+- [ESLint](https://github.com/eslint/eslint)
+- [stylelint](https://github.com/stylelint/stylelint)
+- [Storybook](https://github.com/storybookjs/storybook)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Run the project locally
 
-### Markdown
+**1 -** Clone the project and install the dependencies:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+$ git clone https://github.com/lucasjs/react-boilerplate.git
+$ cd react-boilerplate
+$ npm install
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**2 -** Run development mode:
 
-### Jekyll Themes
+```
+$ npm start
+```
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/todasasletras/todasasletras/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Scripts
 
-### Support or Contact
+Build:
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```
+$ npm run build
+```
+
+Storybook:
+
+```
+$ npm run storybook
+```
+
+## Folders
+
+    .
+    ├── README.md
+    ├── LICENSE
+    ├── .storybook/
+    |   ├── addons.js
+    |   ├── config.js
+    |   └── webpack.config.js
+    ├── public/
+    |   └── index.html
+    ├── src/
+    |   ├── components
+    |   ├── stories/
+    |   |   └── index.js
+    |   ├── App.css
+    |   ├── App.js
+    |   └── index.js
+    ├── package-lock.json
+    ├── package.json
+    ├── webpack.config.js
+    ├── yarn.lock
+    ├── .babelrc
+    ├── .editorconfig
+    ├── .eslintrc.json
+    ├── .stylelintrc
+    └── .gitignore
