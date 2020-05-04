@@ -2,6 +2,7 @@ import React from 'react';
 import {
   array,
   bool,
+  object,
   shape,
 } from 'prop-types';
 
@@ -99,7 +100,7 @@ Header.propTypes = {
   fixedHeader: bool,
   menu: shape({
     links: array,
-    social: array,
+    social: object,
   }).isRequired,
   scroll: bool,
 };
