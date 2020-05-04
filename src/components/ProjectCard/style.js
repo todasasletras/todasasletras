@@ -23,7 +23,6 @@ export const Image = styled.img`
 export const Content = styled.div`
   background-color: ${V.color.grey};
   flex: 1;
-  max-height: 166px;
   padding: ${V.spacing.small};
 `;
 

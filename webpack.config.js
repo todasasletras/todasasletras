@@ -1,4 +1,5 @@
 const path = require('path');
+const CopyPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -7,6 +8,12 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'public/index.html'),
     }),
+    new CopyPlugin([
+      { from: 'public/icons', to: 'icons' },
+      { from: 'public/favicon.ico', to: '' },
+      { from: 'public/manifest.json', to: '' },
+      { from: 'public/social-share.png', to: '' },
+    ]),
   ],
   entry: [
     'react-hot-loader/patch',
@@ -14,6 +21,7 @@ module.exports = {
   ],
   output: {
     path: path.resolve(__dirname, 'dist'),
+    // publicPath: PUBLIC_URL,
     filename: 'bundle.js',
   },
   module: {

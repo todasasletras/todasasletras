@@ -3,12 +3,22 @@ import { createGlobalStyle } from 'styled-components';
 import * as V from 'styles/variables';
 
 const GlobalStyle = createGlobalStyle`
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
   html {
     scroll-behavior: smooth;
   }
 
   body {
-    background-color: ${V.color.white};
+    background-color: ${V.color.purple};
     color: ${V.color.black};
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -21,4 +31,5 @@ const GlobalStyle = createGlobalStyle`
     position: relative;
   }
 `;
+
 export default GlobalStyle;

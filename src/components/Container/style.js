@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 import * as V from 'styles/variables';
+import * as M from 'styles/media';
 
 export const Container = styled.div`
   display: grid;
@@ -10,5 +11,9 @@ export const Container = styled.div`
   max-width: 1240px;
   padding: 0 ${V.spacing.small};
   position: relative;
-  width: calc(100% - 48px);
+  width: 100%;
+
+  @media ${M.media.tablet} {
+    overflow: hidden;
+  }
 `;

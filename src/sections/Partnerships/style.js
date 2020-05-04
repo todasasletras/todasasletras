@@ -2,10 +2,15 @@ import styled from 'styled-components';
 
 import * as V from 'styles/variables';
 import * as T from 'styles/typography';
+import * as M from 'styles/media';
 
 export const Section = styled.section`
   background-color: ${V.color.grey};
   padding: ${V.spacing.large} 0;
+
+  @media ${M.media.tablet} {
+    padding: ${V.spacing.medium} 0;
+  }
 `;
 
 export const PartnersSection = styled.div`
@@ -35,9 +40,24 @@ export const PartnersList = styled.ul`
   list-style: none;
   margin: 0;
   padding: 0;
+
+  @media ${M.media.laptopM} {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media ${M.media.tabletL} {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media ${M.media.tablet} {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;
 
 export const PartnerItem = styled.li`
+  align-items: center;
+  display: flex;
+  justify-content: center;
   text-align: center;
 `;
 
@@ -48,8 +68,9 @@ export const PartnerLink = styled.a`
 `;
 
 export const PartnerImage = styled.img`
-  height: 100%;
+  height: auto;
   max-height: 80px;
+  max-width: 100%;
   mix-blend-mode: multiply;
   transition: opacity 0.5s ease;
 `;

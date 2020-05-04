@@ -1,11 +1,21 @@
+import {
+  logoAbcdev,
+  logoBraziljs,
+  logoCodamos,
+  logoCodenation,
+  logoLambda3,
+  logoQuebradev,
+  logoRoadsec,
+} from 'assets/partners';
+
 const partners = [
   {
     title: 'Patrocinadores',
     list: [
       {
         name: 'Lambda3',
-        url: 'https://www.lambda3.com.br/',
-        img: 'https://www.lambda3.com.br/wp-content/uploads//2017/03/lambda3_logo_200x41.png',
+        url: 'https://www.lambda3.com.br',
+        img: logoLambda3,
       },
     ],
   },
@@ -14,28 +24,43 @@ const partners = [
     list: [
       {
         name: 'BrazilJS',
-        url: 'https://braziljs.org/',
-        img: 'https://braziljs.org/wp-content/themes/PWAWP-theme/images/braziljs-logo-horizontal-black.png',
+        url: 'https://braziljs.org',
+        img: logoBraziljs,
       },
       {
         name: 'Codamos',
-        url: 'https://www.codamos.club/',
-        img: 'https://www.codamos.club/images/logo.png',
+        url: 'https://www.codamos.club',
+        img: logoCodamos,
+      },
+      {
+        name: 'Elixir Brasil',
+        url: 'https://www.sympla.com.br/elixir-brasil-2020__736536',
+        img: 'https://ravan.me/elixir_brasil_logo-cdfb3efae8d13760c42163fe1dce53ca.svg',
       },
       {
         name: 'ABC Dev',
-        url: 'https://abcdevelopers.org/',
-        img: 'https://2018.abcdevelopers.org/images/logo-abcdev-positivo.svg',
+        url: 'https://abcdevelopers.org',
+        img: logoAbcdev,
       },
       {
-        name: 'Quebradev',
-        url: 'https://quebradev.com.br/',
-        img: 'https://quebradev.com.br/images/logo.png',
+        name: 'Roadsec',
+        url: 'https://roadsec.com.br',
+        img: logoRoadsec,
       },
       {
         name: 'Capi Conf',
-        url: 'https://capiconf.com/',
-        img: 'https://capiconf.com/assets/logo_round_normal.svg',
+        url: 'https://capiconf.com',
+        img: 'https://capiconf.com/assets/logo_dark_bg.svg',
+      },
+      {
+        name: 'Quebradev',
+        url: 'https://quebradev.com.br',
+        img: logoQuebradev,
+      },
+      {
+        name: 'Codenation',
+        url: 'https://codenation.dev',
+        img: logoCodenation,
       },
       {
         name: 'Design Ativista',
