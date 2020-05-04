@@ -20,7 +20,27 @@ const partners = [
       {
         name: 'Codamos',
         url: 'https://www.codamos.club/',
-        img: 'https://codamos.club/images/logo.png',
+        img: 'https://www.codamos.club/images/logo.png',
+      },
+      {
+        name: 'ABC Dev',
+        url: 'https://abcdevelopers.org/',
+        img: 'https://2018.abcdevelopers.org/images/logo-abcdev-positivo.svg',
+      },
+      {
+        name: 'Quebradev',
+        url: 'https://quebradev.com.br/',
+        img: 'https://quebradev.com.br/images/logo.png',
+      },
+      {
+        name: 'Capi Conf',
+        url: 'https://capiconf.com/',
+        img: 'https://capiconf.com/assets/logo_round_normal.svg',
+      },
+      {
+        name: 'Design Ativista',
+        url: 'https://www.instagram.com/designativista',
+        img: 'https://static.vakinha.com.br/uploads/user/avatar/2054742/marca-crua.png',
       },
     ],
   },

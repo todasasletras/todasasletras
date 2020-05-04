@@ -36,7 +36,7 @@ export const Name = styled.span`
 export const Role = styled.span`
   font-size: 14px;
   line-height: 17px;
-  padding-top: ${V.spacing.small};
+  padding-top: ${V.spacing.tiny};
   text-align: center;
 `;
 

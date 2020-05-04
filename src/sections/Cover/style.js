@@ -51,7 +51,7 @@ export const Description = styled.a`
 export const Extra = styled.div`
   background: url(${cover}) center right no-repeat;
   background-size: contain;
-  bottom: -10%;
+  bottom: -8%;
   display: block;
   height: 800px;
   left: 0;

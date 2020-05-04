@@ -57,7 +57,7 @@ export const Team = styled.div`
   display: grid;
   grid-column: 1/8;
   grid-column-gap: 1em;
-  grid-row-gap: ${V.spacing.large};
+  grid-row-gap: ${V.spacing.medium};
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
 `;

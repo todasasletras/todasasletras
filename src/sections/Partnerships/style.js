@@ -27,17 +27,18 @@ export const PartnersType = styled.h3`
 `;
 
 export const PartnersList = styled.ul`
-  display: flex;
+  display: grid;
   grid-column: 2/-1;
+  grid-column-gap: 1em;
+  grid-row-gap: ${V.spacing.medium};
+  grid-template-columns: repeat(4, 1fr);
   list-style: none;
   margin: 0;
   padding: 0;
 `;
 
 export const PartnerItem = styled.li`
-  &:not(:first-child) {
-    margin-left: ${V.spacing.large};
-  }
+  text-align: center;
 `;
 
 export const PartnerLink = styled.a`
@@ -47,6 +48,8 @@ export const PartnerLink = styled.a`
 `;
 
 export const PartnerImage = styled.img`
+  height: 100%;
   max-height: 80px;
+  mix-blend-mode: multiply;
   transition: opacity 0.5s ease;
 `;
