@@ -36,6 +36,7 @@ const team = [
     social: {
       linkedin: 'impactdesigner',
       twitter: 'atemzero',
+      instagram: 'atemzero',
     },
   },
   {
