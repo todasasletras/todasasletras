@@ -22,7 +22,7 @@ export default function About() {
           <S.TextBlock>
             Os encontros passaram a ensinar conteúdos técnicos para alavancar as carreiras
             dos participantes.
-            E, de treinamento em treinamento, nos tornamos o maior meetup
+            E, de evento em evento, nos tornamos o maior meetup
             <strong> LGBTI+</strong> da América Latina.
           </S.TextBlock>
           <S.TextBlock>
