@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components';
 import SvgLogoPurple from 'assets/svg/logo-purple.svg';
 import SvgLogoYellow from 'assets/svg/logo-yellow.svg';
 import * as V from 'styles/variables';
+import * as M from 'styles/media';
 
 export const Header = styled.header`
   background-color: transparent;
@@ -51,6 +52,10 @@ export const MenuContainer = styled.div`
     && css`
       align-items: center;
   `};
+
+  @media ${M.media.tabletM} {
+    display: none;
+  }
 `;
 
 export const MenuNav = styled.nav``;

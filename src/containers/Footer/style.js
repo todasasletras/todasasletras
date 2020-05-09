@@ -1,14 +1,23 @@
 import styled from 'styled-components';
 
 import * as V from 'styles/variables';
+import * as M from 'styles/media';
 
 export const Footer = styled.footer`
   background-color: ${V.color.purple};
   padding: ${V.spacing.large} 0;
+
+  @media ${M.media.tablet} {
+    padding: ${V.spacing.medium} 0;
+  }
 `;
 
 export const LogoContainer = styled.div`
   grid-column: 1/5;
+
+  @media ${M.media.tablet} {
+    grid-column: 1/-1;
+  }
 `;
 
 export const Logo = styled.img`
@@ -20,6 +29,17 @@ export const MenuContainer = styled.div`
   grid-column: 5/13;
   grid-column-gap: 1em;
   grid-template-columns: repeat(3, 1fr);
+
+  @media ${M.media.tablet} {
+    grid-column: 1/-1;
+    padding-top: ${V.spacing.medium};
+  }
+
+  @media ${M.media.mobileM} {
+    grid-column: 1/-1;
+    grid-row-gap: ${V.spacing.medium};
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;
 
 export const MenuColumn = styled.div``;

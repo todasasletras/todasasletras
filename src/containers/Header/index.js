@@ -57,19 +57,19 @@ export default function Header({
                       </S.LinkSvg>
                     </S.LinkItemList>
                     )}
-                  {menu.social.linkedin
-                    && (
-                    <S.LinkItemList>
-                      <S.LinkSvg href={menu.social.linkedin} fixedHeader={fixedHeader}>
-                        <IconLinkedin />
-                      </S.LinkSvg>
-                    </S.LinkItemList>
-                    )}
                   {menu.social.facebook
                     && (
                     <S.LinkItemList>
                       <S.LinkSvg href={menu.social.facebook} fixedHeader={fixedHeader}>
                         <IconFacebook />
+                      </S.LinkSvg>
+                    </S.LinkItemList>
+                    )}
+                  {menu.social.linkedin
+                    && (
+                    <S.LinkItemList>
+                      <S.LinkSvg href={menu.social.linkedin} fixedHeader={fixedHeader}>
+                        <IconLinkedin />
                       </S.LinkSvg>
                     </S.LinkItemList>
                     )}

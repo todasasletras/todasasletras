@@ -1,17 +1,13 @@
 const footerMenus = [
-  // {
-  //   title: 'Links úteis',
-  //   links: [
-  //     {
-  //       name: 'Manifesto',
-  //       url: '#',
-  //     },
-  //     {
-  //       name: 'Código de Conduta',
-  //       url: '#',
-  //     },
-  //   ],
-  // },
+  {
+    title: 'Links úteis',
+    links: [
+      {
+        name: 'Campanha',
+        url: 'https://www.vakinha.com.br/vaquinha/todas-as-letras-lgbti-in-tech-formalizacao',
+      },
+    ],
+  },
   {
     title: 'Todas as Letras',
     links: [
@@ -50,7 +46,7 @@ const footerMenus = [
       },
       {
         name: 'Facebook',
-        url: 'https://www.facebook.com/LGBTI-in-Tech-100255398045032',
+        url: 'https://www.facebook.com/Todas-as-Letras-100255398045032',
       },
       {
         name: 'Linkedin',

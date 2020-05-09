@@ -54,6 +54,11 @@ export const Link = styled.a`
 
   & svg {
     height: 20px;
+    transition: all 0.2s ease;
     width: 20px;
+  }
+
+  &:hover svg {
+    fill: ${V.color.purple};
   }
 `;

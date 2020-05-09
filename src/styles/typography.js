@@ -1,9 +1,17 @@
+import * as M from 'styles/media';
+
 export const title = `
   font-size: 65px;
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 65px;
   margin: 0;
+
+
+  @media ${M.media.tablet} {
+    font-size: 40px;
+    line-height: 40px;
+  }
 `;
 
 export const titleSmall = `
