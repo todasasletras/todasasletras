@@ -6,6 +6,10 @@ const footerMenus = [
         name: 'Campanha',
         url: 'https://www.vakinha.com.br/vaquinha/todas-as-letras-lgbti-in-tech-formalizacao',
       },
+      {
+        name: 'Parceria trampos',
+        url: 'https://docs.google.com/forms/d/1kEUDNy9yYNKVB15T2gFS1RzQ5Lsil73NhQjKEcBe7es',
+      },
     ],
   },
   {

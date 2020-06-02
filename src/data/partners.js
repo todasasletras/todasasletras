@@ -6,6 +6,8 @@ import {
   logoLambda3,
   logoQuebradev,
   logoRoadsec,
+  logoTrampos,
+  logoTodxs,
 } from 'assets/partners';
 
 const partners = [
@@ -26,6 +28,16 @@ const partners = [
         name: 'BrazilJS',
         url: 'https://braziljs.org',
         img: logoBraziljs,
+      },
+      {
+        name: 'Todxs',
+        url: 'https://todxs.org',
+        img: logoTodxs,
+      },
+      {
+        name: 'trampos',
+        url: 'https://trampos.co',
+        img: logoTrampos,
       },
       {
         name: 'Codamos',

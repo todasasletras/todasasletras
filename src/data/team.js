@@ -6,6 +6,7 @@ import {
   photoMichelle,
   photoGustavo,
   photoSalem,
+  photoKleber,
 } from 'assets/photo';
 
 const team = [
@@ -74,8 +75,16 @@ const team = [
     role: 'Analista de Mídias',
     social: {
       linkedin: 'salem-oliveira-ab22711a5',
-      twitter: '',
-      instagram: '',
+    },
+  },
+  {
+    photo: photoKleber,
+    name: 'Kleber Figueiredo',
+    role: 'Analista de Design',
+    social: {
+      linkedin: 'kleber-figueiredo-536026100',
+      twitter: 'klebermesmo',
+      instagram: 'klebermesmo',
     },
   },
 ];
