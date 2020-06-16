@@ -1,20 +1,20 @@
-import liveMay from 'assets/cover/live-may.png';
+import liveJun from 'assets/cover/live-jun.png';
 import eventJune from 'assets/cover/event-jun.png';
 
 const events = [
   {
-    img: liveMay,
-    name: 'Todas as Lives #1',
-    description: 'Gestão de tempo e energia em tempos de pandemia.',
-    url: 'https://www.meetup.com/pt-BR/LGBTIinTech-SP/events/270371081/',
-    date: '29 de maio',
+    img: liveJun,
+    name: 'Todas as Lives #2',
+    description: 'Linguagem neutra',
+    url: 'https://www.meetup.com/pt-BR/LGBTIinTech-SP/events/271267181',
+    date: '18 de junho',
     location: 'Online',
     active: true,
   },
   {
     img: eventJune,
     name: 'Meetup #15',
-    description: 'A definir.',
+    description: 'A definir',
     url: '#',
     date: 'A definir',
     location: 'Online',
