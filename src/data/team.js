@@ -41,16 +41,6 @@ const team = [
     },
   },
   {
-    photo: photoRafael,
-    name: 'Rafael Minatti',
-    role: 'Gerente de Design',
-    social: {
-      linkedin: 'rafaelminatti',
-      twitter: '',
-      instagram: '',
-    },
-  },
-  {
     photo: photoMichelle,
     name: 'Michelle Claro',
     role: 'Gerente de Eventos',
@@ -70,11 +60,13 @@ const team = [
     },
   },
   {
-    photo: photoSalem,
-    name: 'Salem Oliveira',
-    role: 'Analista de Mídias',
+    photo: photoRafael,
+    name: 'Rafael Minatti',
+    role: 'Gerente de Design',
     social: {
-      linkedin: 'salem-oliveira-ab22711a5',
+      linkedin: 'rafaelminatti',
+      twitter: '',
+      instagram: '',
     },
   },
   {
@@ -85,6 +77,14 @@ const team = [
       linkedin: 'kleber-figueiredo-536026100',
       twitter: 'klebermesmo',
       instagram: 'klebermesmo',
+    },
+  },
+  {
+    photo: photoSalem,
+    name: 'Salem Oliveira',
+    role: 'Analista de Mídias',
+    social: {
+      linkedin: 'salem-oliveira-ab22711a5',
     },
   },
 ];
