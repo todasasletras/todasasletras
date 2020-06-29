@@ -50,11 +50,11 @@ const footerMenus = [
       },
       {
         name: 'Facebook',
-        url: 'https://www.facebook.com/Todas-as-Letras-100255398045032',
+        url: 'https://www.facebook.com/todasasletrasoficial',
       },
       {
         name: 'Linkedin',
-        url: 'https://www.linkedin.com/company/lgbti-in-tech',
+        url: 'https://www.linkedin.com/company/todasasletras',
       },
       {
         name: 'Youtube',
