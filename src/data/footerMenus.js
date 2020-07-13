@@ -46,7 +46,7 @@ const footerMenus = [
       },
       {
         name: 'Instagram',
-        url: 'https://www.instagram.com/lgbtiintechbrasil',
+        url: 'https://www.instagram.com/todasasletrasoficial',
       },
       {
         name: 'Facebook',
