@@ -2,8 +2,10 @@ import {
   photoJaque,
   photoLucas,
   photoThaly,
+  photoKamila,
   photoRafael,
   photoMichelle,
+  photoJuliana,
   photoGustavo,
   photoSalem,
   photoKleber,
@@ -41,13 +43,30 @@ const team = [
     },
   },
   {
+    photo: photoKamila,
+    name: 'Kamila Vasconcelos',
+    role: 'Gerente de Financeiro',
+    social: {
+      linkedin: 'kamilavasconceloscosta',
+      instagram: 'kamila.vasconcelos',
+      twitter: 'KamilaVCosta',
+    },
+  },
+  {
     photo: photoMichelle,
     name: 'Michelle Claro',
     role: 'Gerente de Eventos',
     social: {
       linkedin: 'michelle-claro-237300167',
-      twitter: '',
-      instagram: '',
+    },
+  },
+  {
+    photo: photoJuliana,
+    name: 'Juliana Barros',
+    role: 'Analista de Eventos',
+    social: {
+      linkedin: 'juliana-barros-alves-028b6212a',
+      twitter: 'JulianaBarrosA7',
     },
   },
   {
@@ -65,8 +84,6 @@ const team = [
     role: 'Gerente de Design',
     social: {
       linkedin: 'rafaelminatti',
-      twitter: '',
-      instagram: '',
     },
   },
   {
