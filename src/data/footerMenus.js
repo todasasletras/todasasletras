@@ -8,7 +8,7 @@ const footerMenus = [
       },
       {
         name: 'Parceria trampos',
-        url: 'https://docs.google.com/forms/d/1kEUDNy9yYNKVB15T2gFS1RzQ5Lsil73NhQjKEcBe7es',
+        url: 'https://bit.ly/tal-trampos',
       },
     ],
   },
