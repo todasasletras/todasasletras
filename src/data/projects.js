@@ -29,8 +29,7 @@ const projects = [
     img: project4,
     name: 'Banco de talentos',
     description: 'Banco de talentos de pessoas LGBTI+.',
-    url: '#',
-    active: false,
+    url: 'https://bit.ly/tal-talentos',
   },
 ];
 
