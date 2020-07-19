@@ -2,7 +2,7 @@ import {
   logoAbcdev,
   logoBraziljs,
   logoCodamos,
-  logoCodenation,
+  logoTrybe,
   logoLambda3,
   logoQuebradev,
   logoRoadsec,
@@ -50,6 +50,11 @@ const partners = [
         img: 'https://ravan.me/elixir_brasil_logo-cdfb3efae8d13760c42163fe1dce53ca.svg',
       },
       {
+        name: 'Trybe',
+        url: 'https://betrybe.com',
+        img: logoTrybe,
+      },
+      {
         name: 'ABC Dev',
         url: 'https://abcdevelopers.org',
         img: logoAbcdev,
@@ -68,11 +73,6 @@ const partners = [
         name: 'Quebradev',
         url: 'https://quebradev.com.br',
         img: logoQuebradev,
-      },
-      {
-        name: 'Codenation',
-        url: 'https://codenation.dev',
-        img: logoCodenation,
       },
       {
         name: 'Design Ativista',
