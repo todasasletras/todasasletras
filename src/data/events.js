@@ -1,24 +1,24 @@
-import eventJune from 'assets/cover/event-jun.png';
+import liveJuly from 'assets/cover/live-jul.png';
 import eventJuly from 'assets/cover/event-jul.png';
 
 const events = [
   {
-    img: eventJune,
-    name: 'Meetup #15',
-    description: 'Do Village ao Arouche: o movimento LGBTQIA+ nos EUA e Brasil',
-    url: 'https://www.meetup.com/pt-BR/todasasletras/events/271586322',
-    date: '30 de junho',
+    img: liveJuly,
+    name: 'Todas as Lives #3',
+    description: 'Inserção e gestão de pessoas no espectro autista em ambiente profissional e acadêmico',
+    url: 'https://www.meetup.com/pt-BR/todasasletras/events/272030168',
+    date: '21 de julho',
     location: 'Online',
     active: true,
   },
   {
     img: eventJuly,
     name: 'Meetup #16',
-    description: 'A definir',
-    url: '#',
-    date: 'A definir',
+    description: 'Segurança e privacidade X Manda Nudes',
+    url: 'https://www.meetup.com/pt-BR/todasasletras/events/271907256',
+    date: '28 de julho',
     location: 'Online',
-    active: false,
+    active: true,
   },
 ];
 
