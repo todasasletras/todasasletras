@@ -15,7 +15,7 @@ const team = [
   {
     photo: photoJaque,
     name: 'Jaqueline Venturim',
-    role: 'Community Leader',
+    role: 'COO',
     social: {
       linkedin: 'jaqueventurim',
       twitter: 'jaqueventurim',
@@ -25,7 +25,7 @@ const team = [
   {
     photo: photoLucas,
     name: 'Lucas Silva',
-    role: 'Community Manager',
+    role: 'CCO',
     social: {
       linkedin: 'lucasjsilva',
       twitter: 'olucasjs',
@@ -35,7 +35,7 @@ const team = [
   {
     photo: photoThaly,
     name: 'Thaly Sanches',
-    role: 'Community Leader',
+    role: 'CPO',
     social: {
       linkedin: 'impactdesigner',
       twitter: 'atemzero',

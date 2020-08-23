@@ -3,8 +3,8 @@ const footerMenus = [
     title: 'Links úteis',
     links: [
       {
-        name: 'Campanha',
-        url: 'https://www.vakinha.com.br/vaquinha/todas-as-letras-lgbti-in-tech-formalizacao',
+        name: 'Financiamento recorrente',
+        url: 'https://benfeitoria.com/todasasletras',
       },
       {
         name: 'Parceria trampos',
