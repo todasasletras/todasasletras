@@ -42,7 +42,7 @@ const footerMenus = [
     links: [
       {
         name: 'Twitter',
-        url: 'https://twitter.com/LGBTIinTech',
+        url: 'https://twitter.com/todasasletras_',
       },
       {
         name: 'Instagram',

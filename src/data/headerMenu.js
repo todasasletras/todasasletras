@@ -22,7 +22,7 @@ const headerMenu = {
     },
   ],
   social: {
-    twitter: 'https://twitter.com/LGBTIinTech',
+    twitter: 'https://twitter.com/todasasletras_',
     instagram: 'https://www.instagram.com/todasasletrasoficial',
     facebook: 'https://www.facebook.com/todasasletrasoficial',
     linkedin: 'https://www.linkedin.com/company/todasasletras',
