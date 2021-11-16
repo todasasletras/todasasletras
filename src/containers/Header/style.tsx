@@ -1,7 +1,5 @@
 import styled, { css } from 'styled-components';
 
-import SvgLogoPurple from '/svg/logo-purple.svg';
-import SvgLogoYellow from '/svg/logo-yellow.svg';
 import * as V from 'styles/variables';
 import * as M from 'styles/media';
 
@@ -31,14 +29,6 @@ export const Header = styled.header`
 
 export const LogoContainer = styled.div`
   grid-column: 1/5;
-`;
-
-export const LogoPurple = styled(SvgLogoPurple)`
-  height: 50px;
-`;
-
-export const LogoYellow = styled(SvgLogoYellow)`
-  height: 67px;
 `;
 
 export const Logo = styled.img`

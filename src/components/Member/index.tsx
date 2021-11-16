@@ -1,8 +1,4 @@
-import React from 'react';
-
-import IconLinkedin from 'assets/svg/icon-linkedin.svg';
-import IconTwitter from 'assets/svg/icon-twitter.svg';
-import IconInstagram from 'assets/svg/icon-instagram.svg';
+import Image from 'next/image';
 
 import * as S from './style';
 
@@ -31,17 +27,17 @@ const Member = ({ memberRole, name, photo, social }: MemberProps) => {
         <S.Social>
           {social.linkedin && (
             <S.Link href={`https://www.linkedin.com/in/${social.linkedin}`}>
-              <IconLinkedin />
+              <Image src="/svg/icon-linkedin.svg" width="20" height="20" />
             </S.Link>
           )}
           {social.twitter && (
             <S.Link href={`https://twitter.com/${social.twitter}`}>
-              <IconTwitter />
+              <Image src="/svg/icon-twitter.svg" width="20" height="20" />
             </S.Link>
           )}
           {social.instagram && (
             <S.Link href={`https://instagram.com/${social.instagram}`}>
-              <IconInstagram />
+              <Image src="/svg/icon-instagram.svg" width="20" height="20" />
             </S.Link>
           )}
         </S.Social>

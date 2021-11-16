@@ -1,4 +1,4 @@
-import IconArrow from 'assets/svg/icon-arrow.svg';
+import Image from 'next/image';
 
 import * as S from './style';
 
@@ -22,7 +22,7 @@ const ProjectCard = ({ active = true, cover, description, link = '', name }: Pro
       </S.Content>
       <S.Cta active={active} href={link}>
         <S.CtaText>{active ? 'Inscreva-se' : 'Em breve!'}</S.CtaText>
-        {active && <IconArrow />}
+        {active && <Image src="/svg/icon-arrow.svg" width="24" height="12" />}
       </S.Cta>
     </S.Card>
   );

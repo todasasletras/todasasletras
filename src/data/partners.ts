@@ -1,15 +1,3 @@
-import {
-  logoAbcdev,
-  logoBraziljs,
-  logoCodamos,
-  logoTrybe,
-  logoLambda3,
-  logoQuebradev,
-  logoRoadsec,
-  logoTrampos,
-  logoTodxs,
-} from 'assets/partners';
-
 const partners = [
   {
     title: 'Patrocinadores',
@@ -17,7 +5,7 @@ const partners = [
       {
         name: 'Lambda3',
         url: 'https://www.lambda3.com.br',
-        img: logoLambda3,
+        img: '/partners/logo-lambda3.png',
       },
     ],
   },
@@ -27,42 +15,42 @@ const partners = [
       {
         name: 'BrazilJS',
         url: 'https://braziljs.org',
-        img: logoBraziljs,
+        img: '/partners/logo-braziljs.png',
       },
       {
         name: 'Todxs',
         url: 'https://todxs.org',
-        img: logoTodxs,
+        img: '/partners/logo-todxs.png',
       },
       {
         name: 'trampos',
         url: 'https://trampos.co',
-        img: logoTrampos,
+        img: '/partners/logo-trampos.png',
       },
       {
         name: 'Codamos',
         url: 'https://www.codamos.club',
-        img: logoCodamos,
+        img: '/partners/logo-codamos.png',
       },
       {
         name: 'Elixir Brasil',
         url: 'https://www.sympla.com.br/elixir-brasil-2020__736536',
-        img: 'https://ravan.me/elixir_brasil_logo-cdfb3efae8d13760c42163fe1dce53ca.svg',
+        img: 'https://images.sympla.com.br/614ab02f1432c.png',
       },
       {
         name: 'Trybe',
         url: 'https://betrybe.com',
-        img: logoTrybe,
+        img: '/partners/logo-trybe.png',
       },
       {
         name: 'ABC Dev',
         url: 'https://abcdevelopers.org',
-        img: logoAbcdev,
+        img: '/partners/logo-abcdev.png',
       },
       {
         name: 'Roadsec',
         url: 'https://roadsec.com.br',
-        img: logoRoadsec,
+        img: '/partners/logo-roadsec.png',
       },
       {
         name: 'Capi Conf',
@@ -72,7 +60,7 @@ const partners = [
       {
         name: 'Quebradev',
         url: 'https://quebradev.com.br',
-        img: logoQuebradev,
+        img: '/partners/logo-quebradev.png',
       },
       {
         name: 'Design Ativista',

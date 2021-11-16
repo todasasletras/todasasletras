@@ -1,6 +1,5 @@
-import React from 'react';
+import Image from 'next/image';
 
-import RainbowYellow from 'assets/svg/rainbow-yellow.svg';
 import Container from 'components/Container';
 import EventCard from 'components/EventCard';
 import events from 'data/events';
@@ -38,7 +37,7 @@ const Events = () => {
           <S.ExtraImg src="/img/juntes-img.png" alt="juntes" />
         </S.Extra>
         <S.Extra>
-          <RainbowYellow />
+          <Image src="/svg/rainbow-yellow.svg" width="120" height="60" />
         </S.Extra>
       </Container>
     </S.Section>

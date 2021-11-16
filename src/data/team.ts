@@ -1,19 +1,6 @@
-// import {
-//   photoJaque,
-//   photoLucas,
-//   photoThaly,
-//   photoKamila,
-//   photoRafael,
-//   photoMichelle,
-//   photoJuliana,
-//   photoGustavo,
-//   photoSalem,
-//   photoKleber,
-// } from 'assets/photo';
-
 const team = [
   {
-    // photo: photoJaque,
+    photo: '/photo/photo-jaque.jpg',
     name: 'Jaqueline Venturim',
     role: 'COO',
     social: {
@@ -23,7 +10,7 @@ const team = [
     },
   },
   {
-    // photo: photoLucas,
+    photo: '/photo/photo-lucas.jpg',
     name: 'Lucas Silva',
     role: 'CCO',
     social: {
@@ -33,7 +20,7 @@ const team = [
     },
   },
   {
-    // photo: photoThaly,
+    photo: '/photo/photo-thaly.jpg',
     name: 'Thaly Sanches',
     role: 'CPO',
     social: {
@@ -43,7 +30,7 @@ const team = [
     },
   },
   {
-    // photo: photoKamila,
+    photo: '/photo/photo-kamila.jpg',
     name: 'Kamila Vasconcelos',
     role: 'Gerente de Financeiro',
     social: {
@@ -53,7 +40,7 @@ const team = [
     },
   },
   {
-    // photo: photoMichelle,
+    photo: '/photo/photo-michelle.jpg',
     name: 'Michelle Claro',
     role: 'Gerente de Eventos',
     social: {
@@ -61,7 +48,7 @@ const team = [
     },
   },
   {
-    // photo: photoJuliana,
+    photo: '/photo/photo-juliana.jpg',
     name: 'Juliana Barros',
     role: 'Analista de Eventos',
     social: {
@@ -70,7 +57,7 @@ const team = [
     },
   },
   {
-    // photo: photoGustavo,
+    photo: '/photo/photo-gustavo.jpg',
     name: 'Gustavo Lorón',
     role: 'Analista de Eventos',
     social: {
@@ -79,7 +66,7 @@ const team = [
     },
   },
   {
-    // photo: photoRafael,
+    photo: '/photo/photo-rafael.jpg',
     name: 'Rafael Minatti',
     role: 'Gerente de Design',
     social: {
@@ -87,7 +74,7 @@ const team = [
     },
   },
   {
-    // photo: photoKleber,
+    photo: '/photo/photo-kleber.jpg',
     name: 'Kleber Figueiredo',
     role: 'Analista de Design',
     social: {
@@ -97,7 +84,7 @@ const team = [
     },
   },
   {
-    // photo: photoSalem,
+    photo: '/photo/photo-salem.jpg',
     name: 'Salem Oliveira',
     role: 'Analista de Mídias',
     social: {

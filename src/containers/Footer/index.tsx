@@ -1,4 +1,5 @@
-import Logo from 'assets/svg/logo-white.svg';
+import Image from 'next/image';
+
 import Container from 'components/Container';
 
 import * as S from './style';
@@ -17,7 +18,7 @@ const Footer = ({ menus }: FooterProps) => {
     <S.Footer>
       <Container>
         <S.LogoContainer>
-          <Logo />
+          <Image src="/svg/logo-white.svg" width="221" height="95" />
         </S.LogoContainer>
         <S.MenuContainer>
           {menus.map((column) => (

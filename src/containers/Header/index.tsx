@@ -1,8 +1,5 @@
-import IconFacebook from 'assets/svg/icon-facebook.svg';
-import IconInstagram from 'assets/svg/icon-instagram.svg';
-import IconLinkedin from 'assets/svg/icon-linkedin.svg';
-import IconTwitter from 'assets/svg/icon-twitter.svg';
-import IconYoutube from 'assets/svg/icon-youtube.svg';
+import Image from 'next/image';
+
 import Container from 'components/Container';
 
 import * as S from './style';
@@ -22,7 +19,13 @@ const Header = ({ fixedHeader = false, menu, scroll = false }: HeaderProps) => {
   return (
     <S.Header fixedHeader={fixedHeader} scroll={scroll}>
       <Container>
-        <S.LogoContainer>{fixedHeader ? <S.LogoPurple /> : <S.LogoYellow />}</S.LogoContainer>
+        <S.LogoContainer>
+          {fixedHeader ? (
+            <Image src="/svg/logo-purple.svg" width="117" height="50" />
+          ) : (
+            <Image src="/svg/logo-yellow.svg" width="157" height="67" />
+          )}
+        </S.LogoContainer>
         <S.MenuContainer fixedHeader={fixedHeader} scroll={scroll}>
           <S.MenuNav>
             <S.LinksList>
@@ -38,35 +41,35 @@ const Header = ({ fixedHeader = false, menu, scroll = false }: HeaderProps) => {
                   {menu.social.twitter && (
                     <S.LinkItemList>
                       <S.LinkSvg href={menu.social.twitter} fixedHeader={fixedHeader}>
-                        <IconTwitter />
+                        <Image src="/svg/icon-twitter.svg" width="20" height="20" />
                       </S.LinkSvg>
                     </S.LinkItemList>
                   )}
                   {menu.social.instagram && (
                     <S.LinkItemList>
                       <S.LinkSvg href={menu.social.instagram} fixedHeader={fixedHeader}>
-                        <IconInstagram />
+                        <Image src="/svg/icon-instagram.svg" width="20" height="20" />
                       </S.LinkSvg>
                     </S.LinkItemList>
                   )}
                   {menu.social.facebook && (
                     <S.LinkItemList>
                       <S.LinkSvg href={menu.social.facebook} fixedHeader={fixedHeader}>
-                        <IconFacebook />
+                        <Image src="/svg/icon-facebook.svg" width="20" height="20" />
                       </S.LinkSvg>
                     </S.LinkItemList>
                   )}
                   {menu.social.linkedin && (
                     <S.LinkItemList>
                       <S.LinkSvg href={menu.social.linkedin} fixedHeader={fixedHeader}>
-                        <IconLinkedin />
+                        <Image src="/svg/icon-linkedin.svg" width="20" height="20" />
                       </S.LinkSvg>
                     </S.LinkItemList>
                   )}
                   {menu.social.youtube && (
                     <S.LinkItemList>
                       <S.LinkSvg href={menu.social.youtube} fixedHeader={fixedHeader}>
-                        <IconYoutube />
+                        <Image src="/svg/icon-youtube.svg" width="20" height="20" />
                       </S.LinkSvg>
                     </S.LinkItemList>
                   )}

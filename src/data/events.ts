@@ -1,9 +1,6 @@
-// import liveAug from '/cover/live-aug.png';
-// import eventAug from '/cover/event-aug.png';
-
 const events = [
   {
-    // img: liveAug,
+    img: '/cover/live-aug.png',
     name: 'Todas as Lives #4',
     description: 'Figma e Design: Aprendendo a se virar no software mais usado pelas empresas de tecnologia',
     url: 'https://www.meetup.com/pt-BR/todasasletras/events/272729316',
@@ -12,7 +9,7 @@ const events = [
     active: true,
   },
   {
-    // img: eventAug,
+    img: '/cover/event-aug.png',
     name: 'Meetup #17',
     description: 'De Safo ao Ferros: Lesbianidades históricas e atuais',
     url: 'https://www.meetup.com/pt-BR/todasasletras/events/272733815',

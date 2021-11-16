@@ -1,6 +1,3 @@
-import React from 'react';
-import { array, arrayOf, shape, string } from 'prop-types';
-
 import Container from 'components/Container';
 
 import * as S from './style';

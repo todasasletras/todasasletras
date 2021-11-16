@@ -1,6 +1,4 @@
-import IconArrow from 'assets/svg/icon-arrow.svg';
-import IconCalendar from 'assets/svg/icon-calendar.svg';
-import IconPin from 'assets/svg/icon-pin.svg';
+import Image from 'next/image';
 
 import * as S from './style';
 
@@ -28,13 +26,13 @@ const EventCard = ({ active = true, cover, date, description, link = '', locatio
         <S.Info>
           <S.InfoItem>
             <S.InfoIcon>
-              <IconCalendar />
+              <Image src="/svg/icon-calendar.svg" width="19" height="18" />
             </S.InfoIcon>
             <S.InfoText>{date}</S.InfoText>
           </S.InfoItem>
           <S.InfoItem>
             <S.InfoIcon>
-              <IconPin />
+              <Image src="/svg/icon-pin.svg" width="12" height="15" />
             </S.InfoIcon>
             <S.InfoText>{location}</S.InfoText>
           </S.InfoItem>
@@ -42,7 +40,7 @@ const EventCard = ({ active = true, cover, date, description, link = '', locatio
       </S.Content>
       <S.Cta active={active} href={link}>
         <S.CtaText>{active ? 'Inscreva-se' : 'Em breve!'}</S.CtaText>
-        {active && <IconArrow />}
+        {active && <Image src="/svg/icon-arrow.svg" width="24" height="12" />}
       </S.Cta>
     </S.Card>
   );

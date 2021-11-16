@@ -1,8 +1,5 @@
-import React from 'react';
+import Image from 'next/image';
 
-import IconPillar1 from 'assets/svg/icon-pillar-1.svg';
-import IconPillar2 from 'assets/svg/icon-pillar-2.svg';
-import IconPillar3 from 'assets/svg/icon-pillar-3.svg';
 import Container from 'components/Container';
 import impact from 'data/impact';
 
@@ -14,7 +11,7 @@ const Vision = () => {
       <Container>
         <S.Pillars>
           <S.Pillar>
-            <IconPillar1 />
+            <Image src="/svg/icon-pillar-1.svg" width="94" height="60" />
             <S.PillarTitle>Capacitar</S.PillarTitle>
             <S.PillarText>
               Capacitamos pessoas LGBTI+ com encontros, cursos e treinamentos de tecnologia. Além de oferecer entradas
@@ -22,7 +19,7 @@ const Vision = () => {
             </S.PillarText>
           </S.Pillar>
           <S.Pillar>
-            <IconPillar2 />
+            <Image src="/svg/icon-pillar-2.svg" width="61" height="61" />
             <S.PillarTitle>Inserir</S.PillarTitle>
             <S.PillarText>
               Inserimos pessoas LGBTI+ no mercado de trabalho com a divulgação de vagas e a presença cortesia em eventos
@@ -30,7 +27,7 @@ const Vision = () => {
             </S.PillarText>
           </S.Pillar>
           <S.Pillar>
-            <IconPillar3 />
+            <Image src="/svg/icon-pillar-3.svg" width="120" height="60" />
             <S.PillarTitle>Crescer</S.PillarTitle>
             <S.PillarText>Geramos liderança LGBTI+ com treinamentos e mentorias para palestrantes.</S.PillarText>
           </S.Pillar>
