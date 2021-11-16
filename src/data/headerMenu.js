@@ -22,10 +22,10 @@ const headerMenu = {
     },
   ],
   social: {
-    twitter: 'https://twitter.com/LGBTIinTech',
-    instagram: 'https://www.instagram.com/lgbtiintechbrasil',
-    facebook: 'https://www.facebook.com/Todas-as-Letras-100255398045032',
-    linkedin: 'https://www.linkedin.com/company/lgbti-in-tech',
+    twitter: 'https://twitter.com/todasasletras_',
+    instagram: 'https://www.instagram.com/todasasletrasoficial',
+    facebook: 'https://www.facebook.com/todasasletrasoficial',
+    linkedin: 'https://www.linkedin.com/company/todasasletras',
     youtube: 'https://www.youtube.com/channel/UC014DgiAVPhqENXWsdogWqQ',
   },
 };

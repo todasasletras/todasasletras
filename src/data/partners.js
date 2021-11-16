@@ -2,10 +2,12 @@ import {
   logoAbcdev,
   logoBraziljs,
   logoCodamos,
-  logoCodenation,
+  logoTrybe,
   logoLambda3,
   logoQuebradev,
   logoRoadsec,
+  logoTrampos,
+  logoTodxs,
 } from 'assets/partners';
 
 const partners = [
@@ -28,6 +30,16 @@ const partners = [
         img: logoBraziljs,
       },
       {
+        name: 'Todxs',
+        url: 'https://todxs.org',
+        img: logoTodxs,
+      },
+      {
+        name: 'trampos',
+        url: 'https://trampos.co',
+        img: logoTrampos,
+      },
+      {
         name: 'Codamos',
         url: 'https://www.codamos.club',
         img: logoCodamos,
@@ -36,6 +48,11 @@ const partners = [
         name: 'Elixir Brasil',
         url: 'https://www.sympla.com.br/elixir-brasil-2020__736536',
         img: 'https://ravan.me/elixir_brasil_logo-cdfb3efae8d13760c42163fe1dce53ca.svg',
+      },
+      {
+        name: 'Trybe',
+        url: 'https://betrybe.com',
+        img: logoTrybe,
       },
       {
         name: 'ABC Dev',
@@ -56,11 +73,6 @@ const partners = [
         name: 'Quebradev',
         url: 'https://quebradev.com.br',
         img: logoQuebradev,
-      },
-      {
-        name: 'Codenation',
-        url: 'https://codenation.dev',
-        img: logoCodenation,
       },
       {
         name: 'Design Ativista',

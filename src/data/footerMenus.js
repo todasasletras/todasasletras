@@ -3,8 +3,12 @@ const footerMenus = [
     title: 'Links úteis',
     links: [
       {
-        name: 'Campanha',
-        url: 'https://www.vakinha.com.br/vaquinha/todas-as-letras-lgbti-in-tech-formalizacao',
+        name: 'Financiamento recorrente',
+        url: 'https://benfeitoria.com/todasasletras',
+      },
+      {
+        name: 'Parceria trampos',
+        url: 'https://bit.ly/tal-trampos',
       },
     ],
   },
@@ -38,19 +42,19 @@ const footerMenus = [
     links: [
       {
         name: 'Twitter',
-        url: 'https://twitter.com/LGBTIinTech',
+        url: 'https://twitter.com/todasasletras_',
       },
       {
         name: 'Instagram',
-        url: 'https://www.instagram.com/lgbtiintechbrasil',
+        url: 'https://www.instagram.com/todasasletrasoficial',
       },
       {
         name: 'Facebook',
-        url: 'https://www.facebook.com/Todas-as-Letras-100255398045032',
+        url: 'https://www.facebook.com/todasasletrasoficial',
       },
       {
         name: 'Linkedin',
-        url: 'https://www.linkedin.com/company/lgbti-in-tech',
+        url: 'https://www.linkedin.com/company/todasasletras',
       },
       {
         name: 'Youtube',

@@ -1,24 +1,24 @@
-import eventMay from 'assets/cover/event-may.png';
-import eventJune from 'assets/cover/event-jun.png';
+import liveAug from 'assets/cover/live-aug.png';
+import eventAug from 'assets/cover/event-aug.png';
 
 const events = [
   {
-    img: eventMay,
-    name: '#14 Meetup',
-    description: 'Saúde mental em tempos de pandemia.',
-    url: 'https://www.meetup.com/pt-BR/LGBTIinTech-SP/events/270371081',
-    date: '7 de Maio',
+    img: liveAug,
+    name: 'Todas as Lives #4',
+    description: 'Figma e Design: Aprendendo a se virar no software mais usado pelas empresas de tecnologia',
+    url: 'https://www.meetup.com/pt-BR/todasasletras/events/272729316',
+    date: '24 de agosto',
     location: 'Online',
     active: true,
   },
   {
-    img: eventJune,
-    name: '#15 Meetup',
-    description: 'A definir.',
-    url: '#',
-    date: 'A definir',
+    img: eventAug,
+    name: 'Meetup #17',
+    description: 'De Safo ao Ferros: Lesbianidades históricas e atuais',
+    url: 'https://www.meetup.com/pt-BR/todasasletras/events/272733815',
+    date: '27 de agosto',
     location: 'Online',
-    active: false,
+    active: true,
   },
 ];
 
