@@ -18,17 +18,16 @@ const Projects = () => {
           igualdade.
         </S.Description>
         <S.ProjectsContainer>
-          {projects &&
-            projects.map((project) => (
-              <ProjectCard
-                key={project.name}
-                cover={project.img}
-                name={project.name}
-                description={project.description}
-                link={project.url}
-                active={project.active}
-              />
-            ))}
+          {projects?.map((project) => (
+            <ProjectCard
+              key={project.name}
+              cover={project.img}
+              name={project.name}
+              description={project.description}
+              link={project.url}
+              active={project.active}
+            />
+          ))}
         </S.ProjectsContainer>
         <S.Extra>
           <S.ExtraTitle>

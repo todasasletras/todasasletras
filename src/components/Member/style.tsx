@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import styled from 'styled-components';
 
 import * as V from 'styles/variables';
@@ -17,7 +18,7 @@ export const ImageContainer = styled.div`
   width: 100px;
 `;
 
-export const Image = styled.img`
+export const ImageComponent = styled(Image)`
   border-radius: 50%;
   height: 100%;
   object-fit: cover;

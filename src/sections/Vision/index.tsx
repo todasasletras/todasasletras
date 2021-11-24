@@ -1,5 +1,6 @@
-import Image from 'next/image';
-
+import IconPillar1 from 'assets/svg/icon-pillar-1.svg';
+import IconPillar2 from 'assets/svg/icon-pillar-2.svg';
+import IconPillar3 from 'assets/svg/icon-pillar-3.svg';
 import Container from 'components/Container';
 import impact from 'data/impact';
 
@@ -11,7 +12,7 @@ const Vision = () => {
       <Container>
         <S.Pillars>
           <S.Pillar>
-            <Image src="/svg/icon-pillar-1.svg" width="94" height="60" />
+            <IconPillar1 />
             <S.PillarTitle>Capacitar</S.PillarTitle>
             <S.PillarText>
               Capacitamos pessoas LGBTI+ com encontros, cursos e treinamentos de tecnologia. Além de oferecer entradas
@@ -19,7 +20,7 @@ const Vision = () => {
             </S.PillarText>
           </S.Pillar>
           <S.Pillar>
-            <Image src="/svg/icon-pillar-2.svg" width="61" height="61" />
+            <IconPillar2 />
             <S.PillarTitle>Inserir</S.PillarTitle>
             <S.PillarText>
               Inserimos pessoas LGBTI+ no mercado de trabalho com a divulgação de vagas e a presença cortesia em eventos
@@ -27,20 +28,19 @@ const Vision = () => {
             </S.PillarText>
           </S.Pillar>
           <S.Pillar>
-            <Image src="/svg/icon-pillar-3.svg" width="120" height="60" />
+            <IconPillar3 />
             <S.PillarTitle>Crescer</S.PillarTitle>
             <S.PillarText>Geramos liderança LGBTI+ com treinamentos e mentorias para palestrantes.</S.PillarText>
           </S.Pillar>
         </S.Pillars>
         <S.ImpactContainer>
           <S.Impact>
-            {impact &&
-              impact.map((item) => (
-                <S.ImpactItem key={item.title}>
-                  <S.ImpactItemQuantity>{item.quantity}</S.ImpactItemQuantity>
-                  <S.ImpactItemTitle>{item.title}</S.ImpactItemTitle>
-                </S.ImpactItem>
-              ))}
+            {impact?.map((item) => (
+              <S.ImpactItem key={item.title}>
+                <S.ImpactItemQuantity>{item.quantity}</S.ImpactItemQuantity>
+                <S.ImpactItemTitle>{item.title}</S.ImpactItemTitle>
+              </S.ImpactItem>
+            ))}
           </S.Impact>
         </S.ImpactContainer>
         <S.Extra>

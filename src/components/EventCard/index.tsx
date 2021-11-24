@@ -1,4 +1,6 @@
-import Image from 'next/image';
+import IconArrow from 'assets/svg/icon-arrow.svg';
+import IconCalendar from 'assets/svg/icon-calendar.svg';
+import IconPin from 'assets/svg/icon-pin.svg';
 
 import * as S from './style';
 
@@ -16,7 +18,7 @@ const EventCard = ({ active = true, cover, date, description, link = '', locatio
   return (
     <S.Card>
       <S.Cover>
-        <S.Image src={cover} alt={name} />
+        <S.ImageComponent src={cover} alt={name} />
       </S.Cover>
       <S.NameContainer>
         <S.Name>{name}</S.Name>
@@ -26,13 +28,13 @@ const EventCard = ({ active = true, cover, date, description, link = '', locatio
         <S.Info>
           <S.InfoItem>
             <S.InfoIcon>
-              <Image src="/svg/icon-calendar.svg" width="19" height="18" />
+              <IconCalendar />
             </S.InfoIcon>
             <S.InfoText>{date}</S.InfoText>
           </S.InfoItem>
           <S.InfoItem>
             <S.InfoIcon>
-              <Image src="/svg/icon-pin.svg" width="12" height="15" />
+              <IconPin />
             </S.InfoIcon>
             <S.InfoText>{location}</S.InfoText>
           </S.InfoItem>
@@ -40,7 +42,7 @@ const EventCard = ({ active = true, cover, date, description, link = '', locatio
       </S.Content>
       <S.Cta active={active} href={link}>
         <S.CtaText>{active ? 'Inscreva-se' : 'Em breve!'}</S.CtaText>
-        {active && <Image src="/svg/icon-arrow.svg" width="24" height="12" />}
+        {active && <IconArrow />}
       </S.Cta>
     </S.Card>
   );

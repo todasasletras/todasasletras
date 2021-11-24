@@ -3,19 +3,25 @@ import Container from 'components/Container';
 import * as S from './style';
 
 type PartnershipsProps = {
-  partners?: partnersProps[] | undefined;
+  partners?: Partners[];
 };
 
-type partnersProps = {
+type Partners = {
   title?: string;
-  list?: [];
+  list?: Partner[];
+};
+
+type Partner = {
+  name: string;
+  url: string;
+  img: string;
 };
 
 const Partnerships = ({ partners }: PartnershipsProps) => {
   return (
     <S.Section id="parcerias">
       <Container>
-        {partners.map((type) => (
+        {partners?.map((type) => (
           <S.PartnersSection key={type.title}>
             <S.PartnersType>{type.title}</S.PartnersType>
             <S.PartnersList>

@@ -3,6 +3,10 @@ import styled from 'styled-components';
 import * as V from 'styles/variables';
 import * as T from 'styles/typography';
 
+type ProjectCardProps = {
+  active: boolean;
+};
+
 export const Card = styled.div`
   display: flex;
   flex-direction: column;
@@ -35,7 +39,7 @@ export const Description = styled.p`
   padding-top: ${V.spacing.small};
 `;
 
-export const Cta = styled.a`
+export const Cta = styled.a<ProjectCardProps>`
   align-items: center;
   background-color: ${V.color.purple};
   color: ${V.color.white};

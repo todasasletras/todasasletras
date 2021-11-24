@@ -9,57 +9,57 @@ import headerMenu from 'data/headerMenu';
 import partners from 'data/partners';
 
 const Home: NextPage = () => {
+  const windowIsValid = typeof window !== 'undefined' ? window : undefined;
   const [fixedHeader, setFixedHeader] = useState(false);
-  // const [scroll, setScroll] = useState(false);
-  // const [pageY, setPageY] = useState(window.pageYOffset);
-  // const [locked, setLocked] = useState(true);
+  const [scroll, setScroll] = useState(false);
+  const [pageY, setPageY] = useState(windowIsValid?.pageYOffset);
+  const [locked, setLocked] = useState(true);
 
-  // const handleHeader = () => {
-  //   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-  //     setFixedHeader(true);
-  //   } else {
-  //     setFixedHeader(false);
-  //   }
-  // };
+  const handleHeader = () => {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      setFixedHeader(true);
+    } else {
+      setFixedHeader(false);
+    }
+  };
 
-  // const handleScroll = useCallback(() => {
-  //   if (locked) {
-  //     return;
-  //   }
-  //   if (!locked) {
-  //     console.log('a');
-  //     if (window.pageYOffset > pageY) {
-  //       setLocked(true);
-  //       setPageY(window.pageYOffset);
-  //       setScroll(true);
-  //     } else {
-  //       setScroll(false);
-  //     }
-  //   }
-  // }, [pageY, locked]);
+  const handleScroll = useCallback(() => {
+    if (locked) {
+      return;
+    }
+    if (!locked) {
+      if (pageY ? window.pageYOffset > pageY : undefined) {
+        setLocked(true);
+        setPageY(window.pageYOffset);
+        setScroll(true);
+      } else {
+        setScroll(false);
+      }
+    }
+  }, [pageY, locked]);
 
-  // useEffect(() => {
-  //   window.addEventListener('scroll', handleHeader);
+  useEffect(() => {
+    window.addEventListener('scroll', handleHeader);
 
-  //   return () => {
-  //     window.removeEventListener('scroll', () => handleHeader);
-  //   };
-  // }, []);
+    return () => {
+      window.removeEventListener('scroll', () => handleHeader);
+    };
+  }, []);
 
-  // useEffect(() => {
-  //   window.addEventListener('scroll', handleScroll);
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
 
-  //   return () => {
-  //     window.removeEventListener('scroll', () => handleScroll);
-  //   };
-  // }, [handleScroll]);
+    return () => {
+      window.removeEventListener('scroll', () => handleScroll);
+    };
+  }, [handleScroll]);
 
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Todas as Letras</title>
       </Head>
-      <Header fixedHeader={fixedHeader} menu={headerMenu} />
+      <Header fixedHeader={fixedHeader} scroll={scroll} menu={headerMenu} />
       <main>
         <Cover />
         <About />

@@ -1,9 +1,17 @@
 import styled, { css } from 'styled-components';
 
+import SvgLogoPurple from 'assets/svg/logo-purple.svg';
+import SvgLogoYellow from 'assets/svg/logo-yellow.svg';
+
 import * as V from 'styles/variables';
 import * as M from 'styles/media';
 
-export const Header = styled.header`
+type HeaderProps = {
+  fixedHeader?: boolean;
+  scroll?: boolean;
+};
+
+export const Header = styled.header<HeaderProps>`
   background-color: transparent;
   ${(props) =>
     props.fixedHeader &&
@@ -31,11 +39,19 @@ export const LogoContainer = styled.div`
   grid-column: 1/5;
 `;
 
+export const LogoPurple = styled(SvgLogoPurple)`
+  height: 50px;
+`;
+
+export const LogoYellow = styled(SvgLogoYellow)`
+  height: 67px;
+`;
+
 export const Logo = styled.img`
   width: 100%;
 `;
 
-export const MenuContainer = styled.div`
+export const MenuContainer = styled.div<HeaderProps>`
   align-items: flex-start;
   display: flex;
   grid-column: 5/13;
@@ -66,7 +82,7 @@ export const LinkItemList = styled.li`
   }
 `;
 
-export const Link = styled.a`
+export const Link = styled.a<HeaderProps>`
   color: ${V.color.white};
   display: inline-block;
   font-size: 14px;
@@ -120,7 +136,7 @@ export const Link = styled.a`
   }
 `;
 
-export const LinkSvg = styled.a`
+export const LinkSvg = styled.a<HeaderProps>`
   display: inline-block;
 
   & svg {

@@ -2,6 +2,10 @@ import styled from 'styled-components';
 
 import * as V from 'styles/variables';
 
+type EventCardProps = {
+  active: boolean;
+};
+
 export const Card = styled.div`
   display: flex;
   flex-direction: column;
@@ -13,7 +17,7 @@ export const Cover = styled.div`
   height: 142px;
 `;
 
-export const Image = styled.img`
+export const ImageComponent = styled.img`
   height: 100%;
   object-fit: cover;
   width: 100%;
@@ -73,7 +77,7 @@ export const InfoText = styled.span`
   margin-left: ${V.spacing.tiny};
 `;
 
-export const Cta = styled.a`
+export const Cta = styled.a<EventCardProps>`
   align-items: center;
   background-color: ${V.color.purple};
   color: ${V.color.white};
