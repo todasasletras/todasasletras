@@ -8,18 +8,18 @@ const headerMenu = {
       name: 'Projetos',
       url: '#projetos',
     },
-    {
-      name: 'Equipe',
-      url: '#equipe',
-    },
+    // {
+    //   name: 'Equipe',
+    //   url: '#equipe',
+    // },
     {
       name: 'Eventos',
-      url: '#eventos',
+      url: 'https://www.meetup.com/pt-BR/todasasletras',
     },
-    {
-      name: 'Parcerias',
-      url: '#parcerias',
-    },
+    // {
+    //   name: 'Parcerias',
+    //   url: '#parcerias',
+    // },
   ],
   social: {
     twitter: 'https://twitter.com/todasasletras_',

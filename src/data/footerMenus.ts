@@ -3,12 +3,12 @@ const footerMenus = [
     title: 'Links úteis',
     links: [
       {
-        name: 'Financiamento recorrente',
-        url: 'https://benfeitoria.com/todasasletras',
+        name: 'Doação avulsa',
+        url: 'https://www.asaas.com/c/774855742533',
       },
       {
-        name: 'Parceria trampos',
-        url: 'https://bit.ly/tal-trampos',
+        name: 'Doação recorrente',
+        url: 'https://www.asaas.com/c/173251637424',
       },
     ],
   },
@@ -23,18 +23,19 @@ const footerMenus = [
         name: 'Projetos',
         url: '#projetos',
       },
-      {
-        name: 'Equipe',
-        url: '#equipe',
-      },
+      // {
+      //   name: 'Equipe',
+      //   url: '#equipe',
+      // },
+      // {
       {
         name: 'Eventos',
-        url: '#eventos',
+        url: 'https://www.meetup.com/pt-BR/todasasletras',
       },
-      {
-        name: 'Parcerias',
-        url: '#parcerias',
-      },
+      // {
+      //   name: 'Parcerias',
+      //   url: '#parcerias',
+      // },
     ],
   },
   {

@@ -9,7 +9,7 @@ const Events = () => {
   return (
     <S.Section id="eventos">
       <Container>
-        <S.Title>
+        {/* <S.Title>
           Próximos <br />
           eventos
         </S.Title>
@@ -29,7 +29,7 @@ const Events = () => {
               active={event.active}
             />
           ))}
-        </S.EventsContainer>
+        </S.EventsContainer> */}
         <S.Extra>
           <S.ExtraTitle>Transformando o mundo</S.ExtraTitle>
           <S.ExtraImg src="/img/juntes-img.png" alt="juntes" />

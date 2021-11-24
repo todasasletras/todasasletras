@@ -41,6 +41,7 @@ export const LogoContainer = styled.div`
 
 export const LogoPurple = styled(SvgLogoPurple)`
   height: 50px;
+  width: 120px;
 `;
 
 export const LogoYellow = styled(SvgLogoYellow)`

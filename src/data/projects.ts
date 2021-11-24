@@ -20,12 +20,12 @@ const projects = [
     url: '#',
     active: false,
   },
-  {
-    img: '/cover/project-4.png',
-    name: 'Banco de talentos',
-    description: 'Banco de talentos de pessoas LGBTI+.',
-    url: 'https://bit.ly/tal-talentos',
-  },
+  // {
+  //   img: '/cover/project-4.png',
+  //   name: 'Banco de talentos',
+  //   description: 'Banco de talentos de pessoas LGBTI+.',
+  //   url: 'https://bit.ly/tal-talentos',
+  // },
 ];
 
 export default projects;
