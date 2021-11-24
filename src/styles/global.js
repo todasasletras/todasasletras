@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-import * as V from 'styles/variables';
+import * as V from './variables';
 
 const GlobalStyle = createGlobalStyle`
   * {
