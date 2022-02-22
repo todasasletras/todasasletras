@@ -5,7 +5,6 @@ import * as T from 'styles/typography';
 import * as M from 'styles/media';
 
 export const Section = styled.section`
-  background: url('/img/pattern-events.png') left top no-repeat, url('/img/pattern-events.png') right bottom no-repeat;
   background-color: ${V.color.white};
   background-size: 40%;
   padding: ${V.spacing.large} 0;

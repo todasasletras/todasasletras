@@ -3,12 +3,13 @@ import Container from 'components/Container';
 import * as S from './style';
 
 type PartnershipsProps = {
-  partners?: Partners[];
+  partners: Partners;
 };
 
 type Partners = {
-  title?: string;
-  list?: Partner[];
+  sponsorship?: Partner[];
+  educational?: Partner[];
+  support?: Partner[];
 };
 
 type Partner = {
@@ -21,21 +22,50 @@ const Partnerships = ({ partners }: PartnershipsProps) => {
   return (
     <S.Section id="parcerias">
       <Container>
-        {partners?.map((type) => (
-          <S.PartnersSection key={type.title}>
-            <S.PartnersType>{type.title}</S.PartnersType>
+        {partners.sponsorship?.length ? (
+          <S.PartnersSection>
+            <S.PartnersType>Patrocínio</S.PartnersType>
             <S.PartnersList>
-              {type.list &&
-                type.list.map((partner) => (
+              {partners.sponsorship?.map((partner) => (
+                <S.PartnerItem key={partner.name}>
+                  <S.PartnerLink href={partner.url}>
+                    <S.PartnerImage src={partner.img} alt={partner.name} />
+                  </S.PartnerLink>
+                </S.PartnerItem>
+              ))}
+            </S.PartnersList>
+          </S.PartnersSection>
+        ) : null}
+        <S.PartnersSection>
+          {partners.educational?.length ? (
+            <S.PartnersSectionEducational>
+              <S.PartnersType>Parcerias Educacionais</S.PartnersType>
+              <S.PartnersListEducational>
+                {partners.educational?.map((partner) => (
                   <S.PartnerItem key={partner.name}>
                     <S.PartnerLink href={partner.url}>
                       <S.PartnerImage src={partner.img} alt={partner.name} />
                     </S.PartnerLink>
                   </S.PartnerItem>
                 ))}
-            </S.PartnersList>
-          </S.PartnersSection>
-        ))}
+              </S.PartnersListEducational>
+            </S.PartnersSectionEducational>
+          ) : null}
+          {partners.support?.length ? (
+            <S.PartnersSectionSupport>
+              <S.PartnersType>Apoio</S.PartnersType>
+              <S.PartnersListSupport>
+                {partners.support?.map((partner) => (
+                  <S.PartnerItem key={partner.name}>
+                    <S.PartnerLink href={partner.url}>
+                      <S.PartnerImage src={partner.img} alt={partner.name} />
+                    </S.PartnerLink>
+                  </S.PartnerItem>
+                ))}
+              </S.PartnersListSupport>
+            </S.PartnersSectionSupport>
+          ) : null}
+        </S.PartnersSection>
       </Container>
     </S.Section>
   );

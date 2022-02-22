@@ -14,14 +14,39 @@ export const Section = styled.section`
 `;
 
 export const PartnersSection = styled.div`
+  align-items: start;
   display: grid;
   grid-column: 1/-1;
   grid-column-gap: 1em;
-  grid-row-gap: ${V.spacing.medium};
+  grid-row-gap: ${V.spacing.small};
   grid-template-columns: repeat(12, 1fr);
 
   &:not(:first-child) {
     margin-top: ${V.spacing.large};
+  }
+`;
+
+export const PartnersSectionEducational = styled.div`
+  align-items: start;
+  display: grid;
+  grid-column: 1/7;
+  grid-column-gap: 1em;
+  grid-row-gap: ${V.spacing.small};
+
+  @media ${M.media.tabletL} {
+    grid-column: 1/-1;
+  }
+`;
+
+export const PartnersSectionSupport = styled.div`
+  align-items: start;
+  display: grid;
+  grid-column: 8/-1;
+  grid-column-gap: 1em;
+  grid-row-gap: ${V.spacing.small};
+
+  @media ${M.media.tabletL} {
+    grid-column: 1/-1;
   }
 `;
 
@@ -33,24 +58,62 @@ export const PartnersType = styled.h3`
 
 export const PartnersList = styled.ul`
   display: grid;
-  grid-column: 2/-1;
+  grid-column: 1/-1;
   grid-column-gap: 1em;
-  grid-row-gap: ${V.spacing.medium};
-  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: ${V.spacing.small};
+  grid-template-columns: repeat(6, 1fr);
   list-style: none;
   margin: 0;
   padding: 0;
 
   @media ${M.media.laptopM} {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   @media ${M.media.tabletL} {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   @media ${M.media.tablet} {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media ${M.media.mobileL} {
     grid-template-columns: repeat(1, 1fr);
+  }
+`;
+
+export const PartnersListEducational = styled.ul`
+  display: grid;
+  grid-column: 1/-1;
+  grid-column-gap: 1em;
+  grid-row-gap: ${V.spacing.small};
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  @media ${M.media.tablet} {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media ${M.media.mobileL} {
+    grid-template-columns: repeat(2, 1fr);
+  }
+`;
+
+export const PartnersListSupport = styled.ul`
+  display: grid;
+  grid-column: 1/-1;
+  grid-column-gap: 1em;
+  grid-row-gap: ${V.spacing.small};
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  @media ${M.media.mobileL} {
+    grid-template-columns: repeat(2, 1fr);
   }
 `;
 
@@ -71,6 +134,7 @@ export const PartnerImage = styled.img`
   height: auto;
   max-height: 80px;
   max-width: 100%;
+  min-height: 30px;
   mix-blend-mode: multiply;
   transition: opacity 0.5s ease;
 `;

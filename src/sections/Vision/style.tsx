@@ -101,7 +101,6 @@ export const Impact = styled.ul`
 
 export const ImpactItem = styled.li`
   align-items: flex-start;
-  color: ${V.color.white};
   display: flex;
   flex-direction: column;
 
@@ -115,12 +114,14 @@ export const ImpactItem = styled.li`
 `;
 
 export const ImpactItemQuantity = styled.span`
+  color: ${V.color.yellow};
   font-size: 80px;
   font-weight: 700;
   letter-spacing: -0.03em;
 `;
 
 export const ImpactItemTitle = styled.span`
+  color: ${V.color.white};
   font-size: 20px;
   font-weight: 400;
 `;

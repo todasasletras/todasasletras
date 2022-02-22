@@ -66,7 +66,7 @@ const Home: NextPage = () => {
         <Vision />
         <Projects />
         {/* <Team /> */}
-        {/* <Partnerships partners={partners} /> */}
+        {partners ? <Partnerships partners={partners} /> : null}
         <Events />
       </main>
       <Footer menus={footerMenus} />

@@ -1,15 +1,15 @@
 const impact = [
   {
-    quantity: '+2.800',
-    title: 'Membros nos Meetups',
+    quantity: '+2.900',
+    title: 'Membros no Meetup',
   },
   {
-    quantity: '+30',
-    title: 'Meetups realizados',
+    quantity: '+35',
+    title: 'Eventos realizados',
   },
   {
-    quantity: '+200',
-    title: 'Cortesias distribuídas',
+    quantity: '+530',
+    title: 'Bolsas distribuídas',
   },
 ];
 
