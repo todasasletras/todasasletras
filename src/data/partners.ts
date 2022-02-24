@@ -29,7 +29,7 @@ const partners = {
     {
       name: 'Edit',
       url: 'https://weareedit.io/br',
-      img: '/partners/logo-edit.jpg',
+      img: '/partners/logo-edit.png',
     },
     {
       name: 'Meiuca',
@@ -38,6 +38,11 @@ const partners = {
     },
   ],
   support: [
+    {
+      name: 'Front In',
+      url: 'https://frontinsampa.com.br',
+      img: '/partners/logo-frontin.svg',
+    },
     {
       name: 'Codamos',
       url: 'https://www.codamos.club',
