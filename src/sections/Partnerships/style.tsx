@@ -134,7 +134,10 @@ export const PartnerImage = styled.img`
   height: auto;
   max-height: 80px;
   max-width: 100%;
-  min-height: 30px;
   mix-blend-mode: multiply;
   transition: opacity 0.5s ease;
+
+  &[src$='.svg'] {
+    min-height: 50px;
+  }
 `;
