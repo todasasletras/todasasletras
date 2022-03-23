@@ -1,6 +1,7 @@
 import Container from 'components/Container';
-import ProjectCard from 'components/ProjectCard';
-import projects from 'data/projects';
+import IconFormations from 'assets/svg/icon-formations.svg';
+import IconMeetup from 'assets/svg/icon-meetup.svg';
+import IconScolarships from 'assets/svg/icon-scolarships.svg';
 
 import * as S from './style';
 
@@ -18,16 +19,27 @@ const Projects = () => {
           igualdade.
         </S.Description>
         <S.ProjectsContainer>
-          {projects?.map((project) => (
-            <ProjectCard
-              key={project.name}
-              cover={project.img}
-              name={project.name}
-              description={project.description}
-              link={project.url}
-              active={project.active}
-            />
-          ))}
+          <S.ProjectCard>
+            <S.ProjectCardTitle>Para a comunidade LGBTQIA+</S.ProjectCardTitle>
+            <S.ProjectCardList>
+              <S.ProjectCardListItem>
+                <IconScolarships /> Bolsas de estudo
+              </S.ProjectCardListItem>
+              <S.ProjectCardListItem>
+                <IconFormations /> Todas as Letras Escola
+              </S.ProjectCardListItem>
+            </S.ProjectCardList>
+          </S.ProjectCard>
+          <S.ProjectCard>
+            <S.ProjectCardTitle>Para todos os públicos</S.ProjectCardTitle>
+            <S.ProjectCardList>
+              <S.ProjectCardListItem>
+                <S.ProjectCardLink href="https://www.meetup.com/pt-BR/todasasletras">
+                  <IconMeetup /> Encontros remotos
+                </S.ProjectCardLink>
+              </S.ProjectCardListItem>
+            </S.ProjectCardList>
+          </S.ProjectCard>
         </S.ProjectsContainer>
         <S.Extra>
           <S.ExtraTitle>

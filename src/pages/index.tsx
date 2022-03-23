@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
-import { About, Cover, Events, Partnerships, Projects, Team, Vision } from 'sections';
+import { About, Cover, Events, Partnerships, Projects, Vision } from 'sections';
 import { Header, Footer } from 'containers';
 import footerMenus from 'data/footerMenus';
 import headerMenu from 'data/headerMenu';
