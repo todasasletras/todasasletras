@@ -62,7 +62,7 @@ const Home: NextPage = () => {
                   <S.ImageComponent src="/immersion/logo-phi.png" layout="fill" objectFit="contain" />
                 </S.PartnerLogo>
                 <S.PartnerLogo>
-                  <S.ImageComponent src="/immersion/logo-cesar.png" layout="fill" objectFit="contain" />
+                  <S.ImageComponent src="/immersion/logo-alura.png" layout="fill" objectFit="contain" />
                 </S.PartnerLogo>
               </S.PartnersLogos>
             </S.Partnerships2>
