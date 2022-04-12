@@ -23,14 +23,16 @@ const Vision = () => {
             <IconPillar2 />
             <S.PillarTitle>Inserir</S.PillarTitle>
             <S.PillarText>
-              Inserimos pessoas LGBTI+ no mercado de trabalho com a divulgação de vagas e a presença cortesia em eventos
-              importantes para a área.
+              Inserimos pessoas LGBTI+ no mercado de trabalho com a divulgação de vagas dentro da nossa comunidade e a
+              presença cortesia em eventos importantes para a área.
             </S.PillarText>
           </S.Pillar>
           <S.Pillar>
             <IconPillar3 />
             <S.PillarTitle>Crescer</S.PillarTitle>
-            <S.PillarText>Geramos liderança LGBTI+ com treinamentos e mentorias para palestrantes.</S.PillarText>
+            <S.PillarText>
+              Geramos liderança LGBTI+ com treinamentos para pessoas com experiência e mentorias para palestrantes.
+            </S.PillarText>
           </S.Pillar>
         </S.Pillars>
         <S.ImpactContainer>

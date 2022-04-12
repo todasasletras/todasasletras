@@ -21,6 +21,9 @@ const About = () => {
             evento em evento, nos tornamos o maior meetup
             <strong> LGBTI+</strong> da América Latina.
           </S.TextBlock>
+          <S.TextBlock>
+            Atualmente somos uma Organização Social que visa incluir pessoas <strong>LGBTQIA+</strong> em Tecnologia.
+          </S.TextBlock>
           <S.TextBlock>Como a água-viva, somos transparentes e fluímos para a mudança!</S.TextBlock>
           <S.TextBlock>
             <strong>Todas as nossas ações são pautadas em 3 pilares principais:</strong>

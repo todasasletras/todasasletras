@@ -24,7 +24,7 @@ const partners = {
     {
       name: 'TheStarter',
       url: 'https://www.thestarter.io',
-      img: '/partners/logo-thestarter.svg',
+      img: '/partners/logo-thestarter.png',
     },
     {
       name: 'Edit',
@@ -41,7 +41,7 @@ const partners = {
     {
       name: 'Front In',
       url: 'https://frontinsampa.com.br',
-      img: '/partners/logo-frontin.svg',
+      img: '/partners/logo-frontin.png',
     },
     {
       name: 'Codamos',
