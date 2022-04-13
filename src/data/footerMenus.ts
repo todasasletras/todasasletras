@@ -10,6 +10,10 @@ const footerMenus = [
         name: 'Doação recorrente',
         url: 'https://www.asaas.com/c/173251637424',
       },
+      {
+        name: 'Blog',
+        url: 'https://blog.todasasletras.org',
+      },
     ],
   },
   {
