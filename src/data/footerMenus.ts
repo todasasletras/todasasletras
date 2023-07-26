@@ -8,7 +8,7 @@ const footerMenus = [
       },
       {
         name: 'Doação recorrente',
-        url: 'https://www.asaas.com/c/173251637424',
+        url: 'https://benfeitoria.com/projeto/todasasletras',
       },
       {
         name: 'Blog',
