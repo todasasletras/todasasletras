@@ -14,6 +14,10 @@ const footerMenus = [
         name: 'Blog',
         url: 'https://blog.todasasletras.org',
       },
+      {
+        name: 'Termos de uso',
+        url: 'https://docs.google.com/document/d/1aOxapLeirFmb08XxOtg13_KT76x-Qm8d',
+      },
     ],
   },
   {
