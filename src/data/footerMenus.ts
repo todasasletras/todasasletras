@@ -18,6 +18,10 @@ const footerMenus = [
         name: 'Termos de uso',
         url: 'https://docs.google.com/document/d/1aOxapLeirFmb08XxOtg13_KT76x-Qm8d',
       },
+      {
+        name: 'Política de privacidade',
+        url: 'https://docs.google.com/document/d/1NDzFmUNdnVjJIhAPeMpCHj_qr68t1zMy',
+      },
     ],
   },
   {
