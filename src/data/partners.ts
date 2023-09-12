@@ -36,6 +36,16 @@ const partners = {
       url: 'https://meiuca.co',
       img: '/partners/logo-meiuca.png',
     },
+    {
+      name: 'Coderhouse',
+      url: 'https://www.coderhouse.com.br',
+      img: '/partners/logo-coderhouse.png',
+    },
+    {
+      name: 'Hyper Island',
+      url: 'https://www.hyperisland.com.br',
+      img: '/partners/logo-hyperisland.png',
+    },
   ],
   support: [
     {
